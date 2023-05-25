@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+}
+
+h1{
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px 5px bisque;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav a{
+    color: rgb(209, 199, 199);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header a {
+    max-width: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.sociais{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header img{
+    max-height: 40px;
+    margin: 5px;
+}
+
+ #img:hover{
+    box-shadow: 0px 0px 30px #ffffff;
+    border-radius: 30px;
+    height: 45px;
+}
+.menu:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1205px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        padding: 25px;
+    }
+}
